@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokino - Selecciona tu Cartón</title>
+    <link rel="stylesheet" href="body_css_pokino_1.css">
+</head>
+<body>
+    <div id="seleccionCarton">
+        <h1>Pokino - Selecciona tu Cartón</h1>
+        <select id="cartonSelect">
+            <option value="1">Cartón 1</option>
+            <option value="2">Cartón 2</option>
+            <option value="3">Cartón 3</option>
+            <option value="4">Cartón 4</option>
+            <option value="5">Cartón 5</option>
+            <option value="6">Cartón 6</option>
+            <option value="7">Cartón 7</option>
+            <option value="8">Cartón 8</option>
+            <option value="9">Cartón 9</option>
+            <option value="10">Cartón 10</option>
+        </select>
+        <button id="jugarBtn">Jugar</button>
+    </div>
+
+    <div id="juego" style="display:none;">
+        <h2>Cartón seleccionado</h2>
+        <div id="cartonContainer">
+            <img id="cartonImg" alt="Cartón seleccionado">
+            <div id="carton"></div>
+        </div>
+        <p id="cartonNumero"></p>
+        <button id="nuevaPartidaBtn">Partida nueva</button>
+    </div>
+
+    <script src="JAVA_1.js"></script>
+</body>
+</html>
